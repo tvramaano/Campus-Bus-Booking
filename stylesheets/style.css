@@ -1,0 +1,135 @@
+.content_area
+{
+	width: 100%;
+	float:left;
+	
+}
+
+.display_area
+{
+	width: 100%;
+	float: left;
+}
+
+.display_area form {
+	width: 90%;
+	margin: 1%;
+	padding: 1%;
+	background: white;
+	border-radius: 4px;
+	float: left;
+	width: 96%;
+	font-family: Arial;
+	
+}
+
+.display_area img{
+	width: 30%;
+	margin-left: 35%;
+	margin-right: 35%;
+	margin-bottom: 5%;
+}
+
+.input-group {
+	margin: 10px 0px 10px 0px;
+}
+
+.input-group label {
+	display: block;
+	text-align: left;
+	margin: 3px;
+	font-weight: 600;
+}
+.input-group input {
+	height: 30px;
+	width: 93%;
+	padding: 5px 10px;
+	font-size: 16px;
+	border-radius: 5px;
+	border: 1px solid gray;
+}
+.btn {
+	padding: 10px;
+	font-size: 15px;
+	color: white;
+	background: #104E8B;
+	border: none;
+	border-radius: 5px;
+}
+
+.btn:hover{
+	 background: #4CAF50;
+}
+
+.errors
+{
+	color: red;
+}
+
+
+/* END REGISTER STYLE */
+
+/* Campus bus booking */
+
+.display_area h1{text-align: center;}
+
+.display_area tr th, .display_area tr td
+{
+	text-align: left;
+	padding: 2%;
+	font-size: 20px;
+	border: 1px dotted blue;
+	font-family: Arial;
+}
+.display_area label{width: 50%;float: left; margin-bottom: 2%;}
+.display_area select{font-size: 20px;float: left; width:50%; margin-bottom: 2%;}
+.display_area option{font-size: 20px;}
+.date_chooser{font-size: 20px; float: left; width: 49.4%; margin-bottom: 2%;}
+.display_area h1{width: 100%;}
+
+.book_btn{padding: 2%;color: blue; font-size: 20px;}
+
+.your_bookings
+{
+	border-radius: 4px; 
+	padding: 1%;
+	margin: 1%;
+	width: 96%;
+	float:left;
+	font-family: Arial;
+}
+
+.your_bookings tr th,.your_bookings tr td
+{
+	padding: 2%;
+	border: 1px dotted blue;
+	width: 50%;
+}
+
+.your_bookings h2
+{
+	text-align: left;
+	color: blue;
+}
+
+.your_bookings table
+{
+	width: 100%;
+}
+
+/* SMALL SCREEM */
+
+
+
+@media screen and (max-width: 750px)
+{
+
+.display_area label{width: 100%;}
+.display_area select{width:100%;}
+.display_area input .date_chooser{width: 100%;}
+.display_area input{width: 100%;}
+
+		
+}
+
+/* END SMALL SCREEN */
