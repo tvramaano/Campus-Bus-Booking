@@ -1,8 +1,8 @@
 <?php
-	$Host = "localhost";
-	$Username = "root";
-	$Password = "";
-	$Database = "student_hub_db";
+	$Host = "hostname";
+	$Username = "username";
+	$Password = "password";
+	$Database = "database name";
 
 	$db_connect = mysqli_connect($Host, $Username, $Password,$Database);
 	// Evaluate the connection
